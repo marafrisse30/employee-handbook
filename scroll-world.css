@@ -1,0 +1,6 @@
+/* A photo-based interpretation of scroll-driven camera movement. */
+@media(prefers-reduced-motion:no-preference){
+.camera-cover{height:165svh;position:relative;margin:0 12px}.camera-cover .cover{position:sticky;top:12px;height:calc(100svh - 24px);min-height:0;margin:0;width:100%;transform-origin:center;will-change:transform}.camera-cover .cover-copy{will-change:transform,opacity}.camera-cover .cover-flower{will-change:transform;transform-origin:50% 50%}
+.camera-gallery{height:155svh;position:relative}.camera-gallery .gallery-scene{position:sticky;top:0;min-height:100svh;padding-top:72px;padding-bottom:72px;overflow:hidden}.camera-gallery .gallery-window{will-change:transform;transform-origin:center;position:relative;z-index:2}.camera-gallery .gallery-window img{will-change:transform}.camera-gallery .gallery-title{will-change:opacity,transform}
+@media(max-width:700px){.camera-cover{height:135svh;margin:0 8px}.camera-cover .cover{top:8px;height:calc(90svh - 16px);padding-top:110px}.camera-gallery{height:130svh}.camera-gallery .gallery-scene{min-height:90svh;align-content:center;padding-top:50px;padding-bottom:50px}}
+}
