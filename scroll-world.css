@@ -4,3 +4,8 @@
 .camera-gallery{height:155svh;position:relative}.camera-gallery .gallery-scene{position:sticky;top:0;min-height:100svh;padding-top:72px;padding-bottom:72px;overflow:hidden}.camera-gallery .gallery-window{will-change:transform;transform-origin:center;position:relative;z-index:2}.camera-gallery .gallery-window img{will-change:transform}.camera-gallery .gallery-title{will-change:opacity,transform}
 @media(max-width:700px){.camera-cover{height:135svh;margin:0 8px}.camera-cover .cover{top:8px;height:calc(90svh - 16px);padding-top:110px}.camera-gallery{height:130svh}.camera-gallery .gallery-scene{min-height:90svh;align-content:center;padding-top:50px;padding-bottom:50px}}
 }
+
+/* Full-bleed cover on every viewport, including reduced motion. */
+.cover{margin:0;border-radius:0;min-height:100svh}
+.camera-cover{margin:0}
+.camera-cover .cover{top:0;height:100svh;margin:0;border-radius:0}
